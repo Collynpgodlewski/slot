@@ -78,9 +78,9 @@ section{
     100% { transform: translateY(0%); }
 }
 
-/* #slot .column {
-    border: 1px solid red !important;
-} */
+#slot .column {
+    /* background-image: url('/img/slotreel.webp'); */
+}
 
 .column .row{
     border-bottom: 1px solid #fff;
@@ -113,4 +113,26 @@ footer{
     padding: 20px;
     background: #f4f4f4;
     text-align: center;
+}
+
+
+
+.slottwo{
+    width: 276.5px;
+    height: 237px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 23.7px;
+}
+
+.reel{
+    border: 1px solid black;
+    width: 79px;
+    height: 237px;
+    background-image: url('/img/slotreel.webp');
+    /* background-image: url('/img/orisa.png');  */
+    background-repeat: repeat-y;
+    background-position: 0 0;
 }
